@@ -1,0 +1,84 @@
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-item:last-child {
+    background-color: #85E0CE;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.button-bar {
+    border-radius: 35px;
+    background-color: #85E0CE;
+    border-color: #85E0CE;
+    border-style: none;
+    padding: 10px 18px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+.button-bar:hover {
+    background-color: #85e0ce9a;
+    transition: all 0.3s linear;
+    letter-spacing: 1px;
+
+}
+
+/*Banner Image*/
+.banner-section {
+    background-image: url(../images/ima.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 140px 0;
+}
+
+.brand-logo {
+    background-color: rgba(0, 0, 0, 0.119);
+}
+
+.learn-more {
+    border-radius: 20px;
+    background-color: #85E0CE;
+    border-style: none;
+    padding: 8px 18px;
+    ;
+}
+
+
+.learn-more:hover {
+    background-color: #85e0ce9a;
+    transition: all 0.3s linear;
+    letter-spacing: 1px;
+}
+
+
+/* Global Section*/
+.global {
+    background-color: rgba(0, 0, 0, 0.119);
+    color: black;
+
+}
+
+.fas {
+    font-size: 30px;
+
+}
+
+.Service a {
+    color: black;
+
+}
+
+@media only screen and (max-width: 667px) {
+    .middle {
+        flex-direction: column-reverse;
+
+
+    }
+}
