@@ -82,3 +82,46 @@
 
     }
 }
+
+.contact {
+    background-color: #1B222C;
+
+}
+
+.about {
+    color: var(--bs-secondary-text) !important;
+}
+
+.bottom-btn {
+    background-color: #1B222C;
+    border-color: rgb(0, 255, 85);
+    color: white;
+    border-radius: 30px;
+    padding: 3px 18px;
+
+}
+
+.footer-section {
+    background-color: #3F454D;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+    font-weight: 500;
+
+}
+
+.footer-list li a {
+    color: #ffffff7a;
+    text-decoration: none;
+
+}
+
+.footer-list li a:hover {
+    color: aqua;
+
+}
